@@ -1,0 +1,13 @@
+[package]
+name = "babe-epoch-fix"
+version = "0.1.0"
+edition = "2021"
+description = "Emergency tool to patch BABE epoch changes in the ParityDB database"
+publish = false
+
+[[bin]]
+name = "babe-epoch-fix"
+path = "src/main.rs"
+
+[dependencies]
+parity-db = { workspace = true }

@@ -549,6 +549,7 @@ members = [
 	"substrate/utils/binary-merkle-tree",
 	"substrate/utils/build-script-utils",
 	"substrate/utils/fork-tree",
+	"substrate/utils/babe-epoch-fix",
 	"substrate/utils/frame/benchmarking-cli",
 	"substrate/utils/frame/generate-bags",
 	"substrate/utils/frame/generate-bags/node-runtime",
